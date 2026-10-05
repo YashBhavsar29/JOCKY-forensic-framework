@@ -1,0 +1,10 @@
+^C:\USERS\SHIVAM\DOCUMENTS\DAVINCI\SIH VIDEO\CODE\JOCKY\BUILD\CMAKEFILES\D9DA66752EE5295A13164C726D2F6088\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY" "-BC:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/JOCKY.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

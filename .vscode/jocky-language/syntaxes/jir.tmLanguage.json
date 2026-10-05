@@ -1,0 +1,119 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "JOCKY Intermediate Representation",
+    "scopeName": "source.jocky-ir",
+
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#module-function-declarations"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#forensic-operations"
+        },
+        {
+            "include": "#identifiers"
+        },
+        {
+            "include": "#numbers"
+        }
+    ],
+
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.semicolon.jocky-ir",
+                    "match": ";.*$"
+                }
+            ]
+        },
+
+        "strings": {
+            "patterns": [
+                {
+                    "name": "string.quoted.double.jocky-ir",
+                    "begin": "\"",
+                    "end": "\"",
+                    "patterns": [
+                        {
+                            "name": "constant.character.escape.jocky-ir",
+                            "match": "\\\\."
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "module-function-declarations": {
+            "patterns": [
+                {
+                    "match": "^(\\s*)(MODULE)(\\s+)([A-Za-z_][A-Za-z0-9_]*)",
+                    "captures": {
+                        "2": {
+                            "name": "keyword.control.module.jocky-ir"
+                        },
+                        "4": {
+                            "name": "entity.name.namespace.jocky-ir"
+                        }
+                    }
+                },
+                {
+                    "match": "^(\\s*)(FUNCTION)(\\s+)([A-Za-z_][A-Za-z0-9_]*)",
+                    "captures": {
+                        "2": {
+                            "name": "keyword.control.function.jocky-ir"
+                        },
+                        "4": {
+                            "name": "entity.name.function.jocky-ir"
+                        }
+                    }
+                }
+            ]
+        },
+
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.jocky-ir",
+                    "match": "\\b(END_FUNCTION|RETURN)\\b"
+                }
+            ]
+        },
+
+        "forensic-operations": {
+            "patterns": [
+                {
+                    "name": "support.function.forensic.jocky-ir",
+                    "match": "\\b(PRINT|FORENSIC_SYSTEM_INFO|FORENSIC_PROCESS_LIST|FORENSIC_NETWORK_INFO|FORENSIC_FILE_SCAN|FORENSIC_EVENT_LOG)\\b"
+                }
+            ]
+        },
+
+        "identifiers": {
+            "patterns": [
+                {
+                    "name": "variable.other.jocky-ir",
+                    "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b"
+                }
+            ]
+        },
+
+        "numbers": {
+            "patterns": [
+                {
+                    "name": "constant.numeric.jocky-ir",
+                    "match": "\\b[0-9]+\\b"
+                }
+            ]
+        }
+    }
+}

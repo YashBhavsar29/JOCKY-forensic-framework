@@ -1,0 +1,156 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "JOCKY",
+    "scopeName": "source.jocky",
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#jocky-keywords"
+        },
+        {
+            "include": "#jocky-functions"
+        },
+        {
+            "include": "#jir-opcodes"
+        },
+        {
+            "include": "#llvm-keywords"
+        },
+        {
+            "include": "#llvm-types"
+        },
+        {
+            "include": "#llvm-symbols"
+        },
+        {
+            "include": "#numbers"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.line.semicolon.jocky",
+                    "match": ";.*$"
+                },
+                {
+                    "name": "comment.line.double-slash.jocky",
+                    "match": "//.*$"
+                },
+                {
+                    "name": "comment.block.jocky",
+                    "begin": "/\\*",
+                    "end": "\\*/"
+                }
+            ]
+        },
+        "strings": {
+            "patterns": [
+                {
+                    "name": "string.quoted.double.jocky",
+                    "begin": "\"",
+                    "end": "\"",
+                    "patterns": [
+                        {
+                            "name": "constant.character.escape.jocky",
+                            "match": "\\\\."
+                        }
+                    ]
+                }
+            ]
+        },
+        "jocky-keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.jocky",
+                    "match": "\\b(module|fn)\\b"
+                },
+                {
+                    "name": "keyword.other.jocky",
+                    "match": "\\b(return|if|else|for|while|true|false)\\b"
+                }
+            ]
+        },
+        "jocky-functions": {
+            "patterns": [
+                {
+                    "name": "entity.name.function.jocky",
+                    "match": "\\b(fn)\\s+([A-Za-z_][A-Za-z0-9_]*)",
+                    "captures": {
+                        "1": {
+                            "name": "keyword.control.jocky"
+                        },
+                        "2": {
+                            "name": "entity.name.function.jocky"
+                        }
+                    }
+                },
+                {
+                    "name": "support.function.jocky",
+                    "match": "\\b(print|system_info|process_list|network_info|file_scan|event_log)\\b(?=\\s*\\()"
+                }
+            ]
+        },
+        "jir-opcodes": {
+            "patterns": [
+                {
+                    "name": "keyword.operator.jocky-ir",
+                    "match": "\\b(MODULE|FUNCTION|RETURN|END_FUNCTION)\\b"
+                },
+                {
+                    "name": "support.function.jocky-ir",
+                    "match": "\\b(PRINT|STRING|FORENSIC_SYSTEM_INFO|FORENSIC_PROCESS_LIST|FORENSIC_NETWORK_INFO|FORENSIC_FILE_SCAN|FORENSIC_EVENT_LOG)\\b"
+                }
+            ]
+        },
+        "llvm-keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.llvm",
+                    "match": "\\b(define|declare|call|ret|private|unnamed_addr|constant|global|source_filename|target|align)\\b"
+                },
+                {
+                    "name": "storage.type.llvm",
+                    "match": "\\b(void|ptr|i1|i8|i16|i32|i64|float|double)\\b"
+                }
+            ]
+        },
+        "llvm-types": {
+            "patterns": [
+                {
+                    "name": "storage.type.llvm",
+                    "match": "\\b(i[0-9]+|half|float|double|fp128|x86_fp80|ppc_fp128|void|ptr)\\b"
+                }
+            ]
+        },
+        "llvm-symbols": {
+            "patterns": [
+                {
+                    "name": "variable.other.llvm-global",
+                    "match": "@[A-Za-z_][A-Za-z0-9_.]*"
+                },
+                {
+                    "name": "variable.other.llvm-local",
+                    "match": "%[A-Za-z_][A-Za-z0-9_.]*"
+                },
+                {
+                    "name": "entity.name.label.llvm",
+                    "match": "^[A-Za-z_][A-Za-z0-9_.]*:"
+                }
+            ]
+        },
+        "numbers": {
+            "patterns": [
+                {
+                    "name": "constant.numeric.jocky",
+                    "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+                }
+            ]
+        }
+    }
+}

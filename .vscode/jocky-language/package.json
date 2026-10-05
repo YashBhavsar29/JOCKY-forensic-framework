@@ -1,0 +1,74 @@
+{
+    "name": "jocky-language-support",
+    "displayName": "JOCKY Language Support",
+    "description": "Syntax highlighting and file icons for JOCKY, JIR, and LLVM IR files",
+    "version": "0.1.0",
+    "publisher": "jocky",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "jocky",
+                "aliases": [
+                    "JOCKY",
+                    "jocky"
+                ],
+                "extensions": [
+                    ".jky"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "jocky-ir",
+                "aliases": [
+                    "JOCKY IR",
+                    "JIR"
+                ],
+                "extensions": [
+                    ".jir"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "jocky-llvm",
+                "aliases": [
+                    "JOCKY LLVM IR",
+                    "LLVM IR"
+                ],
+                "extensions": [
+                    ".ll"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jocky",
+                "scopeName": "source.jocky",
+                "path": "./syntaxes/jocky.tmLanguage.json"
+            },
+            {
+                "language": "jocky-ir",
+                "scopeName": "source.jocky-ir",
+                "path": "./syntaxes/jir.tmLanguage.json"
+            },
+            {
+                "language": "jocky-llvm",
+                "scopeName": "source.jocky-llvm",
+                "path": "./syntaxes/jocky.tmLanguage.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "jocky-file-icons",
+                "label": "JOCKY File Icons",
+                "path": "./icon-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "a-file-icon-vscode.filesAssociations": {
+        "*.jky": "../../jocky-custom-icons/jocky",
+        "*.jir": "../../jocky-custom-icons/jir"
+    },
+    "a-file-icon-vscode.files.associations": {
+}
+}

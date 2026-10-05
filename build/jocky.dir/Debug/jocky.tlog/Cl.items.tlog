@@ -1,0 +1,7 @@
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\driver\main.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\main.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\lexer\lexer.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\lexer.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\parser\parser.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\parser.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\semantic\semantic.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\semantic.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\jir\jir.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\jir.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\compiler\llvm\llvm_codegen.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\llvm_codegen.obj
+C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\runtime\jocky_runtime.cpp;C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\jocky.dir\Debug\jocky_runtime.obj

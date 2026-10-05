@@ -1,0 +1,17 @@
+module forensic_demo;
+
+fn main() {
+    print("=== JOCKY DIGITAL FORENSICS ===");
+
+    system_info();
+
+    process_list();
+
+    network_info();
+
+    file_scan(".");
+
+    event_log();
+
+    print("=== FORENSIC COLLECTION COMPLETE ===");
+}   

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Shivam\Documents\Davinci\SIH Video\Code\JOCKY\build\CMakeFiles\d9da66752ee5295a13164c726d2f6088\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70515326-D685-3582-B822-D1DCDC87E25D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

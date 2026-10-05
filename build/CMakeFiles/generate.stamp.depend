@@ -1,0 +1,54 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/FindDIASDK.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/FindLibXml2.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/Findzstd.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/LLVM-Config.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/LLVMConfig.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/LLVMConfigVersion.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/LLVMExports-release.cmake
+C:/Program Files/LLVM/clang+llvm-23.1.2-x86_64-pc-windows-msvc/lib/cmake/llvm/LLVMExports.cmake
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/CMakeLists.txt
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/4.4.3/CMakeRCCompiler.cmake
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/4.4.3/CMakeSystem.cmake
+C:/vcpkg/installed/x64-windows-static/share/zstd/zstdConfig.cmake
+C:/vcpkg/installed/x64-windows-static/share/zstd/zstdConfigVersion.cmake
+C:/vcpkg/installed/x64-windows-static/share/zstd/zstdTargets-debug.cmake
+C:/vcpkg/installed/x64-windows-static/share/zstd/zstdTargets-release.cmake
+C:/vcpkg/installed/x64-windows-static/share/zstd/zstdTargets.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/ZLIB-shared-debug.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/ZLIB-shared-release.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/ZLIB-shared.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/ZLIBConfig.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/ZLIBConfigVersion.cmake
+C:/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+C:/vcpkg/scripts/buildsystems/vcpkg.cmake

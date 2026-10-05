@@ -1,0 +1,15 @@
+{
+    "name": "JOCKY File Icons",
+    "iconDefinitions": {
+        "_jky": {
+            "iconPath": "./images/jky.svg"
+        },
+        "_jir": {
+            "iconPath": "./images/jir.svg"
+        }
+    },
+    "fileExtensions": {
+        "jky": "_jky",
+        "jir": "_jir"
+    }
+}

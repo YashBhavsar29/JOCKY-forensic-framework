@@ -1,0 +1,8 @@
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/intrinsics_gen.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/vt_gen.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/omp_gen.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/acc_gen.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/target_parser_gen.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/jocky.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Shivam/Documents/Davinci/SIH Video/Code/JOCKY/build/CMakeFiles/ZERO_CHECK.dir
