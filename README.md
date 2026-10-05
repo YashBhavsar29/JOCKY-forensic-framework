@@ -155,7 +155,7 @@ The result is a **programmable forensic execution model**, rather than a collect
 The wider JOCKY architecture is documented in the repository architecture diagram:
 
 <p align="center">
-  <img src="./Architecture.png" alt="JOCKY Framework Architecture" width="100%"/>
+  <img src="./arch.png" alt="JOCKY Framework Architecture" width="100%"/>
 </p>
 
 ### Compiler-focused view
